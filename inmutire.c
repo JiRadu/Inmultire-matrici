@@ -22,6 +22,7 @@ int main()
 {
     int **a,**b,**d;
     int c,i,j,count=1,putere,k;
+    printf("care e dimensiunea matricei?");
     scanf("%d",&count);
     a=(int **)malloc(count* sizeof(int *));
     b=(int **)calloc(count,sizeof(int *));
